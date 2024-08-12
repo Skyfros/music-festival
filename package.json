@@ -1,0 +1,35 @@
+{
+  "name": "music-festival",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyfros/music-festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Francisco Agustin Pastore Chalub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skyfros/music-festival/issues"
+  },
+  "homepage": "https://github.com/Skyfros/music-festival#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

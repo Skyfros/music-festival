@@ -1,0 +1,30 @@
+@use "../base/variables.scss" as v;
+
+.header {
+  background-color: v.$green;
+
+  .contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: v.$white;
+    margin: 0;
+  }
+}
+
+.navegacion-principal {
+  display: flex;
+  gap: 2rem;
+  a {
+    color: v.$white;
+    font-size: 2.4rem;
+
+    &:hover {
+      color: v.$yellow;
+    }
+  }
+}
